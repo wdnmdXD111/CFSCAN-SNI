@@ -6,7 +6,7 @@
 
 现版本建议手动更改GET /cdn-cgi/trace
 
-GET /cdn-cgi/trace不消耗worker次数
+GET /cdn-cgi/trace不消耗worker次数，因此可以把zone缓存关闭
 
 ```text
 读取配置并加运行锁 → 聚合候选文件/URL 并按 IP:端口去重 → 按端口过滤
