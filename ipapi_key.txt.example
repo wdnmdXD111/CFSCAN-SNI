@@ -1,0 +1,3 @@
+# 可选：仅在 proxyip.enabled 和 proxyip.risk.enabled 都为 true 时需要。
+# 在 ipapi.is 获取自己的 API 密钥，复制本文件为 ipapi_key.txt，另起一行填写密钥。
+# 一条有效密钥，不使用环境变量；不要填写 IPinfo Token，不要把实际密钥上传 GitHub。

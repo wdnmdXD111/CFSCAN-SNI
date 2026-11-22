@@ -18,4 +18,7 @@ if (-not (Test-Path -LiteralPath 'ipinfo_tokens.txt')) {
 if (-not (Test-Path -LiteralPath 'speed_token.txt')) {
     Copy-Item -LiteralPath 'speed_token.txt.example' -Destination 'speed_token.txt'
 }
+if (-not (Test-Path -LiteralPath 'ipapi_key.txt')) {
+    Copy-Item -LiteralPath 'ipapi_key.txt.example' -Destination 'ipapi_key.txt'
+}
 Write-Host 'Setup complete. Edit config.json and ipinfo_tokens.txt, then run .\start.cmd'
